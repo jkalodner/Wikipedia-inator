@@ -1,0 +1,18 @@
+[
+	{
+		"id": 1,
+		"priority": 1,
+		"action": {
+			"type": "redirect",
+			"redirect": {
+				"transform": {
+					"query": "?useskin=vector"
+				}
+			}
+		},
+		"condition": {
+			"urlFilter": "||wikipedia.org/wiki/*",
+			"resourceTypes": ["main_frame"]
+		}
+	}
+]
